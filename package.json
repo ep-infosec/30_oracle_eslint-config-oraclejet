@@ -1,0 +1,30 @@
+{
+  "name": "@oracle/eslint-config-oraclejet",
+  "version": "13.1.0",
+  "scripts": {
+    "build": "node ../build/build.js --module eslint-config-oraclejet"
+  },
+  "license": "UPL-1.0",
+  "description": "JET Coding standards eslint config files",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "http://www.oracle.com/jet",
+  "files": [
+    "es5",
+    "es6",
+    "es6-browser",
+    "*.js"
+  ],
+  "dependencies": {
+    "eslint": "~6.8.0",
+    "eslint-config-airbnb-base": "~12.0.2",
+    "eslint-module-utils": "2.5.0",
+    "eslint-plugin-import": "~2.2.0"
+  },
+  "devDependencies": {
+    "minimatch": "^3.0.4",
+    "minimist": "~1.2.0"
+  }
+}
